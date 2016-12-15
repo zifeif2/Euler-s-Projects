@@ -1,0 +1,4 @@
+times1 = int(input())
+for _ in range(times1):
+    times = int(input())
+    print(sum(int(digit) for digit in str(2**times)))
